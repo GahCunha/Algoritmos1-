@@ -1,0 +1,8 @@
+A partir da solicitação de um petshop, você está construindo uma calculadora simples de IMCC (Índice de Massa Corporal Canino) e quantidade diária de ração recomendada.
+A ideia do software é que o usuário entre com a massa (kg) e altura (m - medida da nuca, ao longo da coluna, até a ponta do pé da pata traseira) do cachorro, 
+obtendo como resposta o IMCC (kg/m²) e a quantidade de ração recomendada (g/dia). Com base nessa proposta, faça o fluxograma e escreva a codificação em C e Python, 
+seguindo as instruções abaixo.
+Importante:
+* IMCC é a razão entre a massa e o quadrado da altura;
+* a quantidade de ração recomendada é 15 g por kg do animal, corrigida através do IMCC (essa correção seria multiplicar pela razão 22/IMCC);
+* O cálculo anterior é fictício e não deve ser usado como referência na nutrição de seu cachorro.
