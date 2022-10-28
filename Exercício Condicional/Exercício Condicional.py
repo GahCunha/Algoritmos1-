@@ -14,9 +14,6 @@ pilha=int(input("Digite o numero máximo de containers que podem ser empilhados:
 eixoX = math.floor(deposito_x / container_x) * math.floor(deposito_y / container_y) * pilha
 eixoY = math.floor(deposito_x / container_y) * math.floor(deposito_y / container_x) * pilha
 
-eixoX=int(eixoX) 
-eixoY=int(eixoY)
-
 if(eixoX>eixoY):
     print("A melhor forma de distribuir os containers é: comprimento do container paralelo ao comprimento do deposito.")
     print(f"Ao todo cabem {eixoX} containers.")
