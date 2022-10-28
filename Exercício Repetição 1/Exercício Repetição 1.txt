@@ -1,0 +1,7 @@
+A partir da solicitação de um petshop, você está construindo uma calculadora de saúde felina. Nessa calculadora, o usuário poderá optar por verificar a saúde felina pelo IMCF (Índice de Massa Corporal Felino) ou PGCF (Percentual de Gordura Corporal Felina). Ao escolher o IMCF,  o usuário entrará com a massa (kg) e o comprimento da coluna (m - medida da nuca até a base da calda) do gato, obtendo como resposta o IMCF (kg/m²) e a situação do animal (Abaixo do Peso, Peso Ideal ou Acima do Peso). Ao escolher o PGCF,  o usuário entrará com a CT (circunferência torácica em cm) e a DCP (distância entre o calcâneo e a patela em cm), obtendo como resposta o PGCF (%) e a situação do animal (Abaixo do Peso, Peso Ideal ou Acima do Peso). Além disso, dê ao usuário a possibilidade de repetir o processo descrito, logo, a codificação da calculadora envolverá repetição e o usuário deverá ter uma forma de encerra-lá. Com base nessa proposta, faça o fluxograma e escreva a codificação em C e Python, seguindo as instruções abaixo.
+Importante:
+* IMCF é a razão entre a massa e o quadrado do comprimento da coluna;
+* Abaixo do Peso (IMCF<8), Peso Ideal (8<=IMCF<12) e Acima do Peso (IMCF>=12)
+* PGCF = (((CT/0,7067)-DCP)/0,9156)-DCP
+* Abaixo do Peso (PGCF<20), Peso Ideal (20<=PGCF<27) e Acima do Peso (PGCF>=27)
+* Esse enunciado foi baseado no artigo em anexo.
