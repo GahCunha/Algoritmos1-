@@ -1,0 +1,5 @@
+Uma transportadora lhe solicitou um programa para calcular o número máximo de containers, bem como identificar a orientação dos mesmos, para uma área retangular específica. A ideia do software é que o usuário entre com as dimensões da área de depósito (comprimento e largura em metros), dimensões da base dos containers (comprimento e largura em metros - igual para todos os containers) e número máximo de containers que podem ser empilhados, obtendo a orientação que os containers devem ser depositados (todos irão ter a mesma orientação) e o número máximo que será possível armazenar. Com base nessa proposta, faça o fluxograma, escreva a codificação em C e Python e faça o teste de mesa, seguindo as instruções abaixo.
+Importante:
+* Você precisará da função floor.
+* ATENTE aos tipos das variáveis.
+* Use type casting para fazer a conversão entre tipos.
